@@ -1,0 +1,9 @@
+Bind: '0.0.0.0'
+Port: 5001
+Runner:
+  - name: chromium
+    cmd: "/bin/bash ./cmd/chromium.sh"
+  - name: terminal 
+    cmd: "/bin/bash ./cmd/terminal.sh"
+  - name: files 
+    cmd: "/bin/bash ./cmd/files.sh"
