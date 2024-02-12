@@ -7,3 +7,5 @@ Runner:
     cmd: "/bin/bash ./cmd/terminal.sh"
   - name: files 
     cmd: "/bin/bash ./cmd/files.sh"
+  - name: joplin
+    cmd: "/bin/bash ./cmd/joplin.sh"
